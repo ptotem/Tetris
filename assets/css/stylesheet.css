@@ -1,0 +1,80 @@
+@font-face {
+	font-family: Tetris;
+	src: url('../fonts/tetris.ttf');
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 2vw;
+	width: 100vw;
+	height: 100vh;
+}
+
+.main-wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#left-panel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 30%;
+	background: #000;
+}
+
+#center-panel {
+	position: absolute;
+	background: gray;
+	top: 0;
+	left: 30%;
+	width: 70%;
+	height: 100%;
+}
+
+/* --
+	Left Panel Elements 
+-- */
+
+#logo {
+	position: relative;
+	width: 90%;
+	padding: 5%;
+	top: 0;
+	display: block;
+	font-family: Tetris;
+	font-size: 4em;
+	text-align: center;
+	color: #fff;
+	cursor: default;
+}
+
+#grid {
+	position: relative;
+	width: 100%;
+	padding: 5%;
+	height: 100%;
+	border-spacing: 1px;
+}
+
+.color-primary { background: #fff;}
+.color-1 { background: #d70b00; }
+.color-2 { background: #096588; }
+.color-3 { background: #098817; }
+.color-4 { background: #f2d939; }
+.color-5 { background: #e95f0f; }
+.color-6 { background: #0f99e9; }
+
+
+
+
+
+
+
+
